@@ -1,0 +1,106 @@
+:root {
+    --background: #E9DCC9;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+form input {
+    background-color: white;
+    border-radius: 10px;
+    border: black;
+    border-style: inset;
+    display: flex;
+    font-family: 'Orbitron';
+    justify-content: right;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    padding: 1px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    pointer-events: none;
+    text-align: right;
+}
+
+
+.backspace {
+    background-color: greenyellow;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.backspace:active{
+    box-shadow: inset 0 0 3px black;
+}
+
+.btn, .clearBtn, .equalsBtn {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;      
+}
+
+.btn:active {
+    box-shadow: inset 0 0 3px black;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearBtn {
+    background-color: red;
+    width: 90px;
+}
+
+.clearBtn:active {
+    box-shadow: inset 0 0 3px black;
+}
+
+
+
+.floatRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPage {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainBody {
+    background-color: #C8C8C8;
+    border: black;
+    border-style: outset;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 350px;
+    height: 500px;
+}
+
+.mainBody:active {
+    box-shadow: 3px 5px 5px black;
+}
+
+.positionContainer {
+    display: flex;
+}
+
+.zero {
+    width: 120px;
+}
